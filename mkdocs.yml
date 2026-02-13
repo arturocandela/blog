@@ -9,7 +9,7 @@ theme:
     - content.code.copy
 
 copyright: |
-  <a href="https://arturocandela.github.io/blog">Blog de Arturo Candela</a> © 2026 by <a href="https://github.com/arturocandela">Arturo Candela</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+  <a href="https://arturocandela.github.io/blog">Blog d'Arturo Candela</a> © 2026 per <a href="https://github.com/arturocandela">Arturo Candela</a> està llicenciat sota <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 extra:
   social:
     - icon: fontawesome/brands/github
