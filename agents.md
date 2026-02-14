@@ -17,8 +17,12 @@ Aquest és el **blog personal d'Arturo Candela**, un espai per compartir idees, 
 blog/
 ├── docs/
 │   ├── index.md
-│   └── posts/
-│       └── AAMMDD-nom-del-post.md
+│   └── blog/
+│       ├── index.md
+│       ├── tags.md
+│       ├── .authors.yml
+│       └── posts/
+│           └── AAMMDD-nom-del-post.md
 ├── mkdocs.yml
 └── agents.md
 ```
@@ -37,15 +41,37 @@ Les entrades del blog han de seguir el format **`AAMMDD-nom-del-post.md`**:
 - `260315-aprenent-python.md` → 15 de març de 2026
 - `270101-retrospectiva-anual.md` → 1 de gener de 2027
 
-**Important**: Després de crear un nou post a `docs/posts/`, cal afegir-lo a la navegació en `mkdocs.yml`:
+### Format dels posts
+
+Cada post ha de començar amb metadades YAML front matter:
 
 ```yaml
-nav:
-  - Inici: index.md
-  - Posts:
-      - Primer post: posts/260213-primer-post.md
-      - Nou post: posts/AAMMDD-nou-post.md
+---
+date: 2026-02-13
+authors:
+  - arturo
+categories:
+  - Categoria1
+  - Categoria2
+tags:
+  - tag1
+  - tag2
+---
+
+# Títol del post
+
+<!-- more -->
+
+Primer paràgraf (excerpt)...
+
+Resta del contingut...
 ```
+
+**Important**:
+- El plugin de blog de Material for MkDocs gestiona automàticament la navegació
+- No cal afegir manualment els posts a `mkdocs.yml`
+- Els posts es mostren automàticament ordenats per data
+- Les categories i tags generen pàgines d'índex automàtiques
 
 ## Ús d'agents
 

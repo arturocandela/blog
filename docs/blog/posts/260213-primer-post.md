@@ -1,8 +1,25 @@
+---
+date: 2026-02-13
+authors:
+  - arturo
+categories:
+  - Seguretat
+  - Docker
+  - DevOps
+tags:
+  - TPM
+  - LUKS
+  - GPG
+  - Docker
+  - Laravel
+  - Caddy
+---
+
 # 🔐 Hui ha tocat seguretat, claus i un poc de Docker
 
-13 de febrer de 2026
+<!-- more -->
 
-Hui ha sigut un dia d’eixos que no fan soroll, però que deixen les coses ben apretadetes.
+Hui ha sigut un dia d'eixos que no fan soroll, però que deixen les coses ben apretadetes.
 
 He estat tocant la part de xifrat, tokens, empremta, GPG… i també avançant amb la intranet dockeritzada. No és espectacular, però és feina de la que dona tranquil·litat.
 
