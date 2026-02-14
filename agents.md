@@ -11,6 +11,42 @@ Aquest és el **blog personal d'Arturo Candela**, un espai per compartir idees, 
 - **URL**: https://arturocandela.github.io/blog/
 - **Contingut**: Notes de projectes personals, aprenentatges tècnics, entrades curtes amb proves i experiments
 
+### Estructura del projecte
+
+```
+blog/
+├── docs/
+│   ├── index.md
+│   └── posts/
+│       └── AAMMDD-nom-del-post.md
+├── mkdocs.yml
+└── agents.md
+```
+
+### Nomenclatura de les entrades del blog
+
+Les entrades del blog han de seguir el format **`AAMMDD-nom-del-post.md`**:
+
+- **AA**: Any (dues últimes xifres, p. ex. 26 per a 2026)
+- **MM**: Mes (dos dígits, p. ex. 02 per a febrer)
+- **DD**: Dia (dos dígits, p. ex. 13 per al dia 13)
+- **nom-del-post**: Títol descriptiu en minúscules, amb paraules separades per guions
+
+**Exemples**:
+- `260213-primer-post.md` → 13 de febrer de 2026
+- `260315-aprenent-python.md` → 15 de març de 2026
+- `270101-retrospectiva-anual.md` → 1 de gener de 2027
+
+**Important**: Després de crear un nou post a `docs/posts/`, cal afegir-lo a la navegació en `mkdocs.yml`:
+
+```yaml
+nav:
+  - Inici: index.md
+  - Posts:
+      - Primer post: posts/260213-primer-post.md
+      - Nou post: posts/AAMMDD-nou-post.md
+```
+
 ## Ús d'agents
 
 En el desenvolupament d'aquest blog es poden utilitzar diversos agents d'IA (com Claude, assistents de programació, etc.) per:

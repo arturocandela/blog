@@ -19,7 +19,7 @@ extra:
 nav:
   - Inici: index.md
   - Posts:
-      - Primer post: posts/2026-02-13-primer-post.md
+      - Primer post: posts/260213-primer-post.md
 
 markdown_extensions:
   - admonition
