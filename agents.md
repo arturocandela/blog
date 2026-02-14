@@ -19,7 +19,6 @@ blog/
 │   ├── index.md
 │   └── blog/
 │       ├── index.md
-│       ├── tags.md
 │       ├── .authors.yml
 │       └── posts/
 │           └── AAMMDD-nom-del-post.md

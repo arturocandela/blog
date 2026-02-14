@@ -1,5 +1,6 @@
-arturo:
-  name: Arturo Candela
-  description: Desenvolupador de software apassionat per la tecnologia i la seguretat
-  avatar: https://github.com/arturocandela.png
-  url: https://github.com/arturocandela
+authors:
+  arturo:
+    name: Arturo Candela
+    description: Desenvolupador de software apassionat per la tecnologia i la seguretat
+    avatar: https://github.com/arturocandela.png
+    url: https://github.com/arturocandela

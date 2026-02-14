@@ -22,7 +22,7 @@ Aquest espai naix per compartir **idees, proves i aprenentatges** sobre desenvol
 
     Xifrat amb TPM, tokens FIDO, GPG i dockerització amb Laravel
 
-    [:octicons-arrow-right-24: Llegir més](blog/2026/02/13/260213-primer-post/)
+    [:octicons-arrow-right-24: Llegir més](blog/index.md)
 
 </div>
 
@@ -54,7 +54,7 @@ Aquest espai naix per compartir **idees, proves i aprenentatges** sobre desenvol
 
     Llegeix tots els posts
 
-    [:octicons-arrow-right-24: Veure blog](blog/)
+    [:octicons-arrow-right-24: Veure blog](blog/index.md)
 
 </div>
 
