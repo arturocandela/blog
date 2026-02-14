@@ -12,19 +12,11 @@ Aquest espai naix per compartir **idees, proves i aprenentatges** sobre desenvol
 
 ---
 
-## :material-newspaper-variant-outline: Últims posts
+## :material-newspaper-variant-outline: Blog
 
-<div class="grid cards" markdown>
+Pots llegir totes les entrades del blog, ordenades per data i amb cerca per categories i tags.
 
--   :material-shield-lock:{ .lg .middle } **Seguretat i Docker**
-
-    ---
-
-    Xifrat amb TPM, tokens FIDO, GPG i dockerització amb Laravel
-
-    [:octicons-arrow-right-24: Llegir més](blog/index.md)
-
-</div>
+[:octicons-arrow-right-24: Veure tots els posts](blog/){ .md-button .md-button--primary }
 
 ---
 

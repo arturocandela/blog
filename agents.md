@@ -288,6 +288,14 @@ Quan un agent d'IA cree una entrada de blog, ha de seguir aquests passos:
 docs/blog/posts/AAMMDD-nom-del-post.md
 ```
 
+**IMPORTANT**: Una vegada creat el post a aquesta ubicació, **NO cal fer res més**. El plugin de blog detecta automàticament els nous posts i els mostra a:
+- La pàgina del blog (`/blog/`)
+- L'arxiu per dates
+- Les categories i tags corresponents
+- La navegació
+
+**NO cal** editar cap altre fitxer (ni `mkdocs.yml`, ni `docs/index.md`, ni cap altre). Tot és automàtic.
+
 #### 3. Estructura del contingut
 
 ```yaml
