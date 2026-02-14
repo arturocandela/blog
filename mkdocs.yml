@@ -7,17 +7,17 @@ theme:
   name: material
   language: ca
   palette:
-    # Paleta per al mode clar
+    # Paleta per al mode clar - Tons verds menta/sage
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: green
+      accent: light green
       toggle:
         icon: material/brightness-7
         name: Canvia a mode fosc
-    # Paleta per al mode fosc
+    # Paleta per al mode fosc - Tons verds suaus
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: green
+      accent: light green
       toggle:
         icon: material/brightness-4
         name: Canvia a mode clar
@@ -25,7 +25,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   icon:
-    logo: material/notebook-outline
+    logo: material/leaf
   features:
     # Navegació
     - navigation.instant
@@ -89,6 +89,9 @@ extra:
       link: https://www.linkedin.com/in/arturocandela
       name: LinkedIn de Arturo Candela
   generator: false
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   # Bàsiques

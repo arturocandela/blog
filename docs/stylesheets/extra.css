@@ -1,0 +1,146 @@
+/* Estil personalitzat basat en la imatge amb tons verds menta/sage */
+
+:root {
+  /* Colors principals de la imatge */
+  --sage-light: #C5D9B8;
+  --sage-medium: #A8C5A4;
+  --sage-dark: #8B9D83;
+  --mint-light: #D4E5D0;
+  --cream: #E8DCC8;
+  --forest-green: #6B8E69;
+}
+
+/* Mode clar - Tons verds menta suaus */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #8B9D83;
+  --md-primary-fg-color--light: #A8C5A4;
+  --md-primary-fg-color--dark: #6B8E69;
+  --md-accent-fg-color: #A8C5A4;
+  --md-accent-fg-color--transparent: rgba(168, 197, 164, 0.1);
+
+  /* Colors de fons suaus */
+  --md-default-bg-color: #F5F8F5;
+  --md-default-fg-color: #2D3E2D;
+
+  /* Links amb to sage */
+  --md-typeset-a-color: #6B8E69;
+}
+
+/* Mode fosc - Tons verds foscos però suaus */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #8B9D83;
+  --md-primary-fg-color--light: #A8C5A4;
+  --md-primary-fg-color--dark: #6B8E69;
+  --md-accent-fg-color: #A8C5A4;
+  --md-accent-fg-color--transparent: rgba(168, 197, 164, 0.1);
+
+  /* Fons fosc amb to verdós */
+  --md-default-bg-color: #1A2520;
+  --md-default-fg-color: #D4E5D0;
+}
+
+/* Estil de capçalera més suau i orgànic */
+.md-header {
+  background: linear-gradient(135deg, var(--md-primary-fg-color) 0%, var(--md-primary-fg-color--light) 100%);
+  box-shadow: 0 2px 8px rgba(107, 142, 105, 0.1);
+}
+
+/* Targetes de posts amb estil suau */
+.md-typeset .grid {
+  gap: 1.5rem;
+}
+
+.md-typeset article.blog-post {
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(168, 197, 164, 0.2);
+}
+
+.md-typeset article.blog-post:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(107, 142, 105, 0.15);
+  border-color: var(--md-accent-fg-color);
+}
+
+/* Botons amb estil més orgànic */
+.md-button {
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.md-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(107, 142, 105, 0.2);
+}
+
+.md-button--primary {
+  background-color: var(--md-primary-fg-color);
+}
+
+.md-button--primary:hover {
+  background-color: var(--md-primary-fg-color--dark);
+}
+
+/* Codi amb fons verdós suau */
+.md-typeset code {
+  background-color: rgba(168, 197, 164, 0.1);
+  border-radius: 4px;
+}
+
+.md-typeset pre > code {
+  border-radius: 8px;
+}
+
+/* Tags amb estil més suau */
+.md-tag {
+  border-radius: 16px;
+  background-color: rgba(168, 197, 164, 0.15);
+  color: var(--md-primary-fg-color--dark);
+  border: 1px solid rgba(168, 197, 164, 0.3);
+}
+
+/* Navegació del blog més suau */
+.md-nav--primary .md-nav__item--active > .md-nav__link {
+  background-color: rgba(168, 197, 164, 0.15);
+  border-left: 3px solid var(--md-accent-fg-color);
+}
+
+/* Paginació amb estil més orgànic */
+.md-pagination {
+  border-radius: 8px;
+}
+
+.md-pagination__link {
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.md-pagination__link:hover {
+  background-color: rgba(168, 197, 164, 0.15);
+  transform: translateY(-2px);
+}
+
+/* Admonitions amb tons verds suaus */
+.md-typeset .admonition {
+  border-radius: 8px;
+  border-left-width: 4px;
+}
+
+/* Scrollbar personalitzada */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(168, 197, 164, 0.05);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--md-accent-fg-color);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--md-primary-fg-color--dark);
+}
