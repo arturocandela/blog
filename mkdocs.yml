@@ -28,5 +28,5 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.highlight
 
-# Clau perquè isca dins /blog/
-site_dir: site/blog
+# Directori de sortida per a la build
+site_dir: site
