@@ -53,6 +53,10 @@ theme:
     # TOC
     - toc.follow
 
+nav:
+  - Inici: blog/index.md
+  - About: about.md
+
 plugins:
   - search:
       lang: en

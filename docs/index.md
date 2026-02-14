@@ -4,80 +4,11 @@ hide:
   - toc
 ---
 
-# Benvingut al meu blog :wave:
+<meta http-equiv="refresh" content="0; url=blog/">
+<script>window.location.href = "blog/";</script>
 
-Hola! Soc **Arturo Candela**, desenvolupador de software apassionat per la tecnologia, la seguretat i l'aprenentatge continu.
+# Blog d'Arturo Candela
 
-Aquest espai naix per compartir **idees, proves i aprenentatges** sobre desenvolupament de software, DevOps, seguretat informàtica i tot allò que m'interessa en el món de la tecnologia.
+Redirigint al blog...
 
----
-
-## :material-newspaper-variant-outline: Blog
-
-Pots llegir totes les entrades del blog, ordenades per data i amb cerca per categories i tags.
-
-[:octicons-arrow-right-24: Veure tots els posts](blog/){ .md-button .md-button--primary }
-
----
-
-## :material-account: Sobre mi
-
-<div class="grid cards" markdown>
-
--   :fontawesome-brands-github:{ .lg .middle } **GitHub**
-
-    ---
-
-    Explora els meus projectes de codi obert
-
-    [:octicons-arrow-right-24: @arturocandela](https://github.com/arturocandela)
-
--   :fontawesome-brands-linkedin:{ .lg .middle } **LinkedIn**
-
-    ---
-
-    Connecta amb mi professionalment
-
-    [:octicons-arrow-right-24: LinkedIn](https://www.linkedin.com/in/arturocandela)
-
--   :material-notebook-outline:{ .lg .middle } **Blog**
-
-    ---
-
-    Llegeix tots els posts
-
-    [:octicons-arrow-right-24: Veure blog](blog/index.md)
-
-</div>
-
----
-
-## :material-lightbulb-on: Què trobaràs ací
-
-!!! tip "Contingut del blog"
-
-    - **Notes de projectes personals**: Idees, proves i experiments
-    - **Aprenentatges tècnics**: Coses que vaig descobrint i aprenent
-    - **Seguretat**: TPM, xifrat, autenticació i bones pràctiques
-    - **DevOps**: Docker, CI/CD, automatització
-    - **Desenvolupament**: Frameworks, llenguatges i eines
-
----
-
-<div class="grid" markdown>
-
-!!! example "Filosofia del blog"
-
-    No busque fer entrades perfectes, sinó **construir l'hàbit d'escriure** i documentar el procés d'aprenentatge.
-
-    M'agrada que les coses siguen **simples i que funcionen**.
-
-!!! info "Tecnologies"
-
-    Aquest blog està construït amb:
-
-    - **MkDocs** amb el tema **Material for MkDocs**
-    - **GitHub Actions** per a desplegament automàtic
-    - **GitHub Pages** per a l'allotjament
-
-</div>
+Si no es redirigeix automàticament, [clica ací per veure els posts](blog/).
